@@ -1,0 +1,37 @@
+@import './bootstrap.scss';
+@import './base.scss';
+
+.card-custom {
+  width: 1366px;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.text-container-card {
+  background-color: white;
+  box-shadow: 0px 10px 20px #00000029;
+  position: relative;
+  bottom: -59px;
+  left: -57px;
+
+  h1 {
+    font-family: 'Ovo';
+    font-size: 36px;
+    font-weight: 300;
+    color: #000000;
+  }
+
+  p {
+    text-align: left;
+    font-family: 'Helvetica Neue';
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #303239;
+  }
+  .content {
+    padding: 4rem;
+  }
+}

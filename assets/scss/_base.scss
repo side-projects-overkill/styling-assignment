@@ -1,0 +1,45 @@
+// @mixin button-variant(
+//   $background,
+//   $border,
+//   $hover-background,
+//   $hover-border,
+//   $active-background,
+//   $active-border
+// );
+
+$color: #fff;
+$bg: #327AB9;
+
+// begin styling here.
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-custom {
+  // @include button-variant($bg, darken($bg, 3%))
+  background-color: $bg;
+  border: darken($bg, 3%);
+  color: #fff;
+  font-family: 'Helvetica Neue';
+  font-size: 1.25rem;
+  padding: .5rem 2rem;
+}
+
+// < 576px, but we don't use this one because build things mobile first, right?!
+// @include media-breakpoint-down(xs) {}
+
+// // ≥576px
+// @include media-breakpoint-up(sm) {}
+
+// // ≥768px
+// @include media-breakpoint-up(md) {}
+
+// // ≥992px
+// @include media-breakpoint-up(lg) {}
+
+// // ≥1200px
+// @include media-breakpoint-up(xl) {}
+
+// // ≥1400px
+// @include media-breakpoint-up(xxl) {}

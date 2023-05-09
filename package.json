@@ -1,0 +1,37 @@
+{
+  "name": "mg-styling-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress",
+    "start": "npm run dev && npm run dev-server"
+  },
+  "author": "Mindgruve",
+  "license": "ISC",
+  "browserslist": [
+    ">= 0.5%",
+    "last 2 major versions",
+    "not dead",
+    "Chrome >= 60",
+    "Firefox >= 60",
+    "Firefox ESR",
+    "iOS >= 12",
+    "Safari >= 12",
+    "not Explorer <= 11"
+  ],
+  "devDependencies": {
+    "@popperjs/core": "^2.11.0",
+    "@symfony/webpack-encore": "^1.7.0",
+    "autoprefixer": "^10.4.5",
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.0.0",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.3.0",
+    "webpack-notifier": "^1.14.1"
+  }
+}
